@@ -13,10 +13,10 @@
     background-color: #f5f5f5;
   }
 
-  .card {
+  /* .card {
     margin: 1rem auto;
     position: relative; 
-  }
+  } */
   
   .card-body {
     z-index: 2;
@@ -26,3 +26,14 @@
     left: 0;
     text-align: center;
   }
+
+.card {
+  margin: 3rem auto;
+  position: relative;
+  height: 150px;
+  width: 300px;
+}
+
+.secondRow{
+  display: inline;
+}
